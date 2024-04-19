@@ -16,7 +16,7 @@ if table is not None:  # Check if the table is found
             if Title and Gross:
                 data.append([Title, Gross])
 
-    # Define the 'data' list before creating the DataFrame
+   
 df = pd.DataFrame(data, columns=['Title', 'Gross'])
 # Print or use the DataFrame as needed
 print(df)
